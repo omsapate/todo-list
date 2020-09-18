@@ -33,7 +33,6 @@
 
 body {
   margin: 0;
-  min-width: 200px;
   background-color: #333232;
 }
 
@@ -106,4 +105,15 @@ span{
 span:hover{
 	background: #ff5a36;
 	cursor: pointer;
+}
+
+img{
+  top: 60px; /* your required value */
+  right: 0;
+  position: fixed;
+  border-radius: 50%;
+}
+
+img:hover {
+  transform: scaleX(-1);
 }
